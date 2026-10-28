@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Projects</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+    h1 { font-size: 2rem; margin-bottom: .5rem; color: #fff; }
+    .subtitle { color: #94a3b8; margin-bottom: 3rem; }
+    .project { background: #1e293b; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid #334155; }
+    .project h2 { font-size: 1.3rem; color: #fff; margin-bottom: .5rem; }
+    .project p { color: #94a3b8; margin-bottom: 1rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+    .badge { background: #334155; padding: .25rem .6rem; border-radius: 6px; font-size: .8rem; color: #cbd5e1; }
+    .screens { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .screens img { width: 100%; border-radius: 8px; border: 1px solid #334155; }
+    .note { font-size: .85rem; color: #64748b; margin-top: 1.5rem; font-style: italic; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Projects</h1>
+    <p class="subtitle">Android apps built with Kotlin</p>
+
+    <div class="project">
+      <h2>PromoDayTracker v0.6.1</h2>
+      <p>Android app for tracking promotional days with rule-based posting logic.</p>
+      <div class="badges">
+        <span class="badge">Kotlin</span>
+        <span class="badge">Android</span>
+        <span class="badge">MVVM</span>
+        <span class="badge">Room</span>
+      </div>
+      <div class="screens">
+        <!-- Add your screenshots here -->
+        <!-- <img src="screenshots/promo1.png" alt="PromoDayTracker screen 1"> -->
+        <!-- <img src="screenshots/promo2.png" alt="PromoDayTracker screen 2"> -->
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>QuickTill POS v3</h2>
+      <p>Android POS app with receipt generation and graph/analytics features.</p>
+      <div class="badges">
+        <span class="badge">Kotlin</span>
+        <span class="badge">Android</span>
+        <span class="badge">Receipt</span>
+        <span class="badge">Charts</span>
+      </div>
+      <div class="screens">
+        <!-- Add your screenshots here -->
+        <!-- <img src="screenshots/pos1.png" alt="QuickTill POS screen 1"> -->
+        <!-- <img src="screenshots/pos2.png" alt="QuickTill POS screen 2"> -->
+      </div>
+    </div>
+
+    <p class="note">Source code available upon request.</p>
+  </div>
+</body>
+</html>
